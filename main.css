@@ -1,0 +1,200 @@
+*html,body{
+    padding:0px;
+    margin: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+}
+
+body{
+    
+    background-color: gray;
+    background-image: -webkit-linear-gradient(top left, #a802e0, #f7676a);
+}
+
+.container{
+    max-width: 1160px;
+    height: 80vh;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+
+
+}
+
+.login{
+    padding: 20px;
+    background: rgba(255, 255, 255, 0);
+    border-radius: 15px;
+    border: 2px solid white;
+    max-width: 500px;
+    width: 400px;
+    backdrop-filter: blur/5px;
+    
+}
+.login h1{
+    text-align: center;
+    color: aliceblue;
+}
+
+
+#lgf{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    
+}
+
+
+input[type="text"],input[type="password"]{
+    background: transparent;
+    padding:10px;
+    margin: 10px 0px;
+    max-width: 100%;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid white;
+    font-size: 23px;
+}
+
+input::placeholder{
+    color: aliceblue;
+}
+.fp{
+    color: aliceblue;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+.fp a{
+    padding: 5px;
+    color: aliceblue;
+    font-size: 1.2em;
+    text-decoration: none;
+
+}
+
+
+input[type="submit"]{
+    padding: 10px;
+    margin:10px auto;
+    background: transparent;
+    color: aliceblue;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: larger;
+
+}
+
+input[type="submit"]:hover{
+    background: #353c9e8f;
+    box-shadow: 0px 2px 9px 0px;
+}
+
+input[type="text"]:focus,input[type="password"]:focus{
+    border-bottom: 3px solid #0000008f;
+}
+
+
+.inputbox{
+    position: relative;
+    margin: 30px 0;
+    width: 310px;
+    
+}
+.inputbox label{
+    position: absolute;
+    top:20px;
+    left: 35px;
+    transform: translateY(-50%);
+    color: rgb(255, 255, 255);
+    font-size: 1.5em;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+input:focus~label,
+input:valid ~label{
+    top: -5px;
+}
+
+.inputbox input{
+    width: 100%;
+    height: 20px;
+    
+}
+
+.inputbox ion-icon{
+    position: absolute;
+    right: 10px;
+    color: white;
+    font-size: 1.5em;
+}
+
+.for{
+    margin: 15px 0 s;
+    font-size: 1.1em;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    padding: 20px;
+    
+    
+}
+.register{
+    margin: 2px 0 20px;
+    font-size: 1.2em;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    padding: 20px;
+    font-weight: 1s00;
+    
+    
+
+}
+.register a{
+    color: #000000;
+    text-decoration: none;
+
+}
+.register p a:hover{
+    text-decoration: underline;
+    
+}
+
+.register p a{
+    font-weight: 900;
+}
+
+.for label a{
+    color: #000000;
+    text-decoration:none;
+    font-weight: 600;
+}
+
+.for label a:hover{
+    text-decoration: underline;
+}
+
+.for label{
+    font-weight: 100;
+}
+
+
+#submit{
+    width: 100%;
+    color: #fff;
+    height: 40px;
+    border-radius: 50px;
+    background: rgb(206, 25, 137);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1.3em;
+}
+
