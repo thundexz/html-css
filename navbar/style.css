@@ -1,0 +1,143 @@
+
+*{
+    padding: 0px;
+    
+    margin: 0px;
+    box-sizing: border-box;
+    background: rgb(255, 255, 255);
+}
+#ov{
+    box-shadow: #0a0ab0;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    flex-direction: row;
+}
+.box1{
+    width: 100%;
+    height: 50px;
+    margin: 15px;
+}
+.box1{box-shadow: 0px 15px 2px 1px #ded8d8 ;}
+.container{
+    height: 100vh;
+    width: 100%;
+    flex-direction: row;
+}
+h2{
+    color:white
+}
+nav{
+    display: flex;
+    align-items:flex-end;
+    justify-content:linear;
+    margin: 20px;
+    padding: 200px;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right:5%;
+    border:none
+}
+.logo span{
+    margin: 20px auto;
+    padding: 30px 0px 10px 0px;
+}
+.logo{
+    color:rgba(33, 32, 32, 0.818);
+    font-size:30px;
+    margin-right:100px;
+    border:none
+}
+.logo:hover{
+    cursor: pointer;
+    border:none
+}
+span{
+    color: rgb(207, 18, 18);
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+}
+nav ul li{
+    list-style-type: none ;
+    display:inline-block;
+    padding: 10px 20px;
+    border:none
+}
+.sub{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    position: relative;
+}
+ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bolder;
+    border:none
+}
+nav li a:hover{
+    color: rgb(251, 0, 0);
+    transition: 0.5s ease-in;
+    border:none
+    background-color:#0a0ab0;
+
+}
+.submenu{
+    width: 130px;
+    position: absolute;
+    left: 520px;
+    top: 100%;
+    padding: 1px;
+    display: none;
+}
+.sub:hover .submenu{
+    display: block;
+}
+div:hover{
+    display: block;
+}
+1.btn{
+    display: flex;
+    align-items:normal;
+    justify-content:right;
+}
+
+button{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end
+    width : 8%;
+    background : rgb(255, 255, 255);
+    box-shadow : inset 0 0 0 0 #3a3abd;
+    padding : 8px;
+    margin : 20px;
+    transition : ease-out 0.3s;
+    outline : none;
+    border-radius : 9px;
+    color : rgb(0, 0, 0);
+    font-weight : bolder;
+    font-size : 10px;
+    box-shadow : inset 0 0 0 0 #0a0ab0;
+    transition : ease-out 0.1s;
+    border-width : 100%;
+    
+}
+button:hover{
+    color: rgb(255, 255, 255);
+    box-shadow: inset 250px 0 0 0 0 #0a0ab0;
+    cursor: pointer;background: red;
+    transition: ease-in-out 0.5s;
+    border: none;
+}
+
+
